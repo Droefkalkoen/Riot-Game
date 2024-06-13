@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3348013046708870124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3348013046708869650}
+  - component: {fileID: 3348013046708870125}
+  m_Layer: 0
+  m_Name: UnitSelectionController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3348013046708869650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348013046708870124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.387451, y: -55.811646, z: 1.1760521}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3348013046708870125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3348013046708870124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe03d5774ab62d4cb7cb368d1f7ba6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashbangPrefab: {fileID: 1367071374221288520, guid: 87843985c9c87c14dbffb1f0d8c0b7d4, type: 3}
+  selectionPlaneHeight: 0
+  positionIndicatorPrefab: {fileID: 3540043386051028692, guid: c7c65b3a731b9a349a6fba29e7e57a0c, type: 3}
+  vehiclePositionIndicatorPrefab: {fileID: 904786428721889753, guid: a88b6967bd07a314bbf5823ae37b231e, type: 3}
+  policeLayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  minRowDistance: 1
+  minVehicleRowDistance: 3
